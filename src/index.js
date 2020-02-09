@@ -1,6 +1,6 @@
 import ReactDOM from "react-dom";
 import React from "react";
-import App from "./cw1";
+import Calc from "./cw3/calc";
 
-ReactDOM.render(<App/>,  document.getElementById( "root"));
+ReactDOM.render(<Calc/>,  document.getElementById( "root"));
 

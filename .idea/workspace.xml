@@ -2,10 +2,15 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="3edeb553-cb0d-4c64-b264-70d83f0031a1" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/cw1.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/cw2/LowestChild.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/cw2/LowestLowestChild.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/cw2/NestedInParent.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/cw2/Parent.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/cw2/Parent1.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/cw3/calc.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/cw3/parent.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/cw1.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/cw1.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -27,12 +32,23 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../new_moj_react" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/cw3" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
     <property name="nodejs_interpreter_path" value="node" />
     <property name="nodejs_package_manager_path" value="npm" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\Student\WebstormProjects\prace_domowe\src\cw3" />
+      <recent name="C:\Users\Student\WebstormProjects\prace_domowe\src\cw2" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\Student\WebstormProjects\prace_domowe\src\cw3" />
+      <recent name="C:\Users\Student\WebstormProjects\prace_domowe\src" />
+      <recent name="C:\Users\Student\WebstormProjects\prace_domowe\src\cw2" />
+    </key>
   </component>
   <component name="RunManager" selected="npm.npm start">
     <configuration name="Debug Application" type="JavascriptDebugType" uri="http://localhost:3000">
@@ -60,16 +76,42 @@
       <option name="presentableId" value="Default" />
       <updated>1581169205776</updated>
       <workItem from="1581169206926" duration="3675000" />
+      <workItem from="1581172919634" duration="219000" />
+      <workItem from="1581236132074" duration="12147000" />
     </task>
+    <task id="LOCAL-00001" summary="cw 1 kawałek">
+      <created>1581173052763</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1581173052763</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
   </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="cw 1 kawałek" />
+    <option name="LAST_COMMIT_MESSAGE" value="cw 1 kawałek" />
+  </component>
   <component name="WindowStateProjectService">
-    <state x="643" y="457" key="FileChooserDialogImpl" timestamp="1581169923321">
+    <state x="734" y="324" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1581243388688">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="643" y="457" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1581169923321" />
+    <state x="734" y="324" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1920.1040@0.0.1920.1040" timestamp="1581243388688" />
+    <state x="304" y="225" key="CommitChangelistDialog2" timestamp="1581173051851">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="304" y="225" key="CommitChangelistDialog2/0.0.1920.1040@0.0.1920.1040" timestamp="1581173051851" />
+    <state x="643" y="457" key="FileChooserDialogImpl" timestamp="1581236202136">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="643" y="457" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1581236202136" />
+    <state x="271" y="363" key="Vcs.Push.Dialog.v2" timestamp="1581173061662">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="271" y="363" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1581173061662" />
   </component>
 </project>
