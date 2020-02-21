@@ -2,15 +2,17 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="3edeb553-cb0d-4c64-b264-70d83f0031a1" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/cw2/LowestChild.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/cw2/LowestLowestChild.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/cw2/NestedInParent.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/cw2/Parent.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/cw2/Parent1.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/cw3/calc.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/cw3/parent.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/formularzWalidacja/cw1.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/stateZagnie/Parent.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/cw1.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/cw1.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/cw1.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/blog/formularz.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/cw2/LowestChild.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/propsWkomponowane/LowestChild.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/cw2/LowestLowestChild.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/propsWkomponowane/LowestLowestChild.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/cw2/NestedInParent.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/propsWkomponowane/NestedInParent.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/cw2/Parent.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/propsWkomponowane/Parent.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/cw2/Parent1.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/propsWkomponowane/Parent1.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/cw3/calc.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/stateBezZagnie/dodawanie.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/cw3/parent.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/stateBezZagnie/pustyState.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -32,7 +34,8 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/cw3" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
@@ -41,10 +44,14 @@
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\grzeg\IdeaProjects\prace_domowe\src\formularzWalidacja" />
+      <recent name="C:\Users\grzeg\IdeaProjects\prace_domowe\src\blog" />
       <recent name="C:\Users\Student\WebstormProjects\prace_domowe\src\cw3" />
       <recent name="C:\Users\Student\WebstormProjects\prace_domowe\src\cw2" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\grzeg\IdeaProjects\prace_domowe\src\stateZagnie" />
+      <recent name="C:\Users\grzeg\IdeaProjects\prace_domowe\src" />
       <recent name="C:\Users\Student\WebstormProjects\prace_domowe\src\cw3" />
       <recent name="C:\Users\Student\WebstormProjects\prace_domowe\src" />
       <recent name="C:\Users\Student\WebstormProjects\prace_domowe\src\cw2" />
@@ -65,6 +72,18 @@
       <method v="2" />
     </configuration>
   </component>
+  <component name="ServiceViewManager">
+    <option name="viewStates">
+      <list>
+        <serviceView>
+          <treeState>
+            <expand />
+            <select />
+          </treeState>
+        </serviceView>
+      </list>
+    </option>
+  </component>
   <component name="SvnConfiguration">
     <configuration />
   </component>
@@ -78,6 +97,12 @@
       <workItem from="1581169206926" duration="3675000" />
       <workItem from="1581172919634" duration="219000" />
       <workItem from="1581236132074" duration="12147000" />
+      <workItem from="1581540252601" duration="3542000" />
+      <workItem from="1581619168262" duration="2951000" />
+      <workItem from="1581966370930" duration="10881000" />
+      <workItem from="1582148835135" duration="5693000" />
+      <workItem from="1582225281899" duration="1807000" />
+      <workItem from="1582325543172" duration="634000" />
     </task>
     <task id="LOCAL-00001" summary="cw 1 kawałek">
       <created>1581173052763</created>
@@ -105,13 +130,18 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="304" y="225" key="CommitChangelistDialog2/0.0.1920.1040@0.0.1920.1040" timestamp="1581173051851" />
-    <state x="643" y="457" key="FileChooserDialogImpl" timestamp="1581236202136">
-      <screen x="0" y="0" width="1920" height="1040" />
+    <state x="457" y="240" key="FileChooserDialogImpl" timestamp="1582226511735">
+      <screen x="0" y="0" width="1366" height="728" />
     </state>
+    <state x="457" y="240" key="FileChooserDialogImpl/0.0.1366.728@0.0.1366.728" timestamp="1582226511735" />
     <state x="643" y="457" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1581236202136" />
     <state x="271" y="363" key="Vcs.Push.Dialog.v2" timestamp="1581173061662">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="271" y="363" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1581173061662" />
+    <state x="379" y="189" key="com.intellij.ide.util.TipDialog" timestamp="1582326290920">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="379" y="189" key="com.intellij.ide.util.TipDialog/0.0.1366.728@0.0.1366.728" timestamp="1582326290920" />
   </component>
 </project>
