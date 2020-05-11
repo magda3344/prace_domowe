@@ -1,24 +1,44 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="BranchesTreeState">
+    <expand>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </expand>
+    <select />
+  </component>
   <component name="ChangeListManager">
     <list default="true" id="3edeb553-cb0d-4c64-b264-70d83f0031a1" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/formularzWalidacja/cw1.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/stateZagnie/Parent.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/cw1.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/blog/formularz.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/cw2/LowestChild.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/propsWkomponowane/LowestChild.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/cw2/LowestLowestChild.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/propsWkomponowane/LowestLowestChild.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/cw2/NestedInParent.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/propsWkomponowane/NestedInParent.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/cw2/Parent.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/propsWkomponowane/Parent.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/cw2/Parent1.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/propsWkomponowane/Parent1.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/cw3/calc.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/stateBezZagnie/dodawanie.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/cw3/parent.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/stateBezZagnie/pustyState.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/blog/about.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/blog/about.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/blog/formularz.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/blog/formularz.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/formularzWalidacja/cw1.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/formularzWalidacja/cw1.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/index.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/stateBezZagnie/dodawanie.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/stateBezZagnie/dodawanie.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/stateZagnieCw3_1/Calc.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/stateZagnieCw3_1/Calc.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/stateZagnieCw3_1/Parent.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/stateZagnieCw3_1/Parent.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ExportToHTMLSettings">
+    <option name="OUTPUT_DIRECTORY" value="$PROJECT_DIR$/../prace_domowe_React\exportToHTML" />
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -27,10 +47,10 @@
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
-    <option name="showExcludedFiles" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
@@ -72,18 +92,6 @@
       <method v="2" />
     </configuration>
   </component>
-  <component name="ServiceViewManager">
-    <option name="viewStates">
-      <list>
-        <serviceView>
-          <treeState>
-            <expand />
-            <select />
-          </treeState>
-        </serviceView>
-      </list>
-    </option>
-  </component>
   <component name="SvnConfiguration">
     <configuration />
   </component>
@@ -103,6 +111,12 @@
       <workItem from="1582148835135" duration="5693000" />
       <workItem from="1582225281899" duration="1807000" />
       <workItem from="1582325543172" duration="634000" />
+      <workItem from="1588787337471" duration="28000" />
+      <workItem from="1588787603608" duration="21223000" />
+      <workItem from="1588855103046" duration="1614000" />
+      <workItem from="1588881361686" duration="4117000" />
+      <workItem from="1588968375829" duration="1798000" />
+      <workItem from="1589187388767" duration="13457000" />
     </task>
     <task id="LOCAL-00001" summary="cw 1 kawałek">
       <created>1581173052763</created>
@@ -115,7 +129,19 @@
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
-    <option name="version" value="1" />
+    <option name="version" value="2" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="cw 1 kawałek" />
@@ -130,9 +156,11 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="304" y="225" key="CommitChangelistDialog2/0.0.1920.1040@0.0.1920.1040" timestamp="1581173051851" />
-    <state x="457" y="240" key="FileChooserDialogImpl" timestamp="1582226511735">
-      <screen x="0" y="0" width="1366" height="728" />
+    <state x="428" y="324" key="FileChooserDialogImpl" timestamp="1589190410037">
+      <screen x="0" y="0" width="1280" height="984" />
     </state>
+    <state x="428" y="324" key="FileChooserDialogImpl/0.0.1280.984/1280.0.1366.728@0.0.1280.984" timestamp="1589190410037" />
+    <state x="1737" y="237" key="FileChooserDialogImpl/0.0.1280.984/1280.0.1366.728@1280.0.1366.728" timestamp="1588885115145" />
     <state x="457" y="240" key="FileChooserDialogImpl/0.0.1366.728@0.0.1366.728" timestamp="1582226511735" />
     <state x="643" y="457" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1581236202136" />
     <state x="271" y="363" key="Vcs.Push.Dialog.v2" timestamp="1581173061662">
@@ -143,5 +171,9 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="379" y="189" key="com.intellij.ide.util.TipDialog/0.0.1366.728@0.0.1366.728" timestamp="1582326290920" />
+    <state x="346" y="94" width="587" height="795" key="find.popup" timestamp="1588789875656">
+      <screen x="0" y="0" width="1280" height="984" />
+    </state>
+    <state x="346" y="94" width="587" height="795" key="find.popup/0.0.1280.984/1280.0.1366.728@0.0.1280.984" timestamp="1588789875656" />
   </component>
 </project>

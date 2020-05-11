@@ -1,7 +1,20 @@
 import React from 'react';
 
-class Calc extends React.Component {
+
+class Calc extends React.Component{
+ value = prompt("Podaj liczbę", "liczba czeka");
     render() {
-        return {this.props.okno};
-    }
-}
+        return
+
+        {this.props.value}
+        }
+};
+export default Calc
+
+//przekazuje zmienną value do Parent - display - w return
+
+
+
+//     <Calc okno={wpisz}/>
+//<Parent display={value}/>
+

@@ -10,6 +10,7 @@ export default class MyForm extends React.Component {
             sex: '',
             errormessagename: '',
             errormessagename1: '',
+            errormessagesurname: '',
             errormessageage: ''
         };
     }
@@ -25,26 +26,38 @@ export default class MyForm extends React.Component {
         let val = event.target.value;
         var errAge = '';
         var errName = '';
+
+
         if (nam === "age") {
-            if (val !="" && !Number(val)) {
+            if (val !=="" && !Number(val)) {
                 errAge = <strong>Your age must be a number</strong>;
             }
             this.setState({errormessageage: errAge});
         }
 
         if (nam === "username") {
-            if (val.length <= 2) {
-                errName = <strong>Length of name must be higher than 2 characters</strong>;
+            if (val.length <= 4) {
+                errName = <strong>Length of name must be higher than 4 characters</strong>;
             }
             this.setState({errormessagename: errName});
-        }
-        if (nam === "username1") {
-            if (val.length <= 2) {
-                errName = <strong>Length of surname must be higher than 2 characters</strong>;
+        if (Number(val)) {
+                    errName = <strong>Name must be a text</strong>;
+                }
+                this.setState({errormessagename: errName});
             }
-            this.setState({errormessagename1: errName});
+
+
+        if (nam === "username1") {
+            if (val.length <= 4) {
+                errName = <strong>Length of surname must be higher than 4 characters</strong>;
+            }
+            this.setState({errormessagesurname: errName});
+            if (Number(val)) {
+                errName = <strong>Surname must be a text</strong>;
+            }
+            this.setState({errormessagesurname: errName});
         }
-        this.setState({[nam]: val});
+        this.setState({[nam]: val}); //zmiana komponentu z nam na val- setState
     }
     render() {
         return (
@@ -64,7 +77,7 @@ export default class MyForm extends React.Component {
                     name='username1'
                     onChange={this.myChangeHandler}
                 />
-                <p>{this.state.errormessagename1}</p>
+                <p>{this.state.errormessagesurname}</p>
 
                 <p>Enter your age:</p>
                 <input

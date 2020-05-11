@@ -1,5 +1,6 @@
 import React from 'react';
 
+
 export default class MyForm extends React.Component {
     constructor(props) {
         super(props);
@@ -22,7 +23,7 @@ export default class MyForm extends React.Component {
     render() {
         return (
             <form>
-               <h2> {this.state.id}. {this.state.title.toUpperCase()}</h2>
+               <h2> {this.state.id}. {this.state.title.toUpperCase()}, {this.state.description}</h2>
                 <p>Enter id article:</p>
                 <input
                     type='text'
@@ -32,7 +33,8 @@ export default class MyForm extends React.Component {
                 <input
                     type='text'
                     onChange={this.myTitle}/>
-                <p>Enter your text:</p>
+
+                    <p>Enter your text:</p>
                 <textarea  type='text' onChange={this.myText} />
             </form>
         );

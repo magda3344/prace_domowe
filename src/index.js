@@ -1,6 +1,7 @@
 import ReactDOM from "react-dom";
 import React from "react";
-import Parent from "./blog/formularz";
+import './index.css';
+import App from "./blog/formularz";
 
-ReactDOM.render(<Parent/>,  document.getElementById( "root"));
+ReactDOM.render(<App/>,  document.getElementById( "root"));
 

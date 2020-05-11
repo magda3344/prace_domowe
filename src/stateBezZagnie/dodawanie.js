@@ -1,11 +1,11 @@
 import React from 'react';
 
-export default class Dodawanie extends React.Component {
+export default class Parent extends React.Component {
 
     constructor(props) {
         super(props);
         this.state = { //inicjalizacja state, stanu, definiujemy stan w konstruktorze
-            number: 0
+            number: 0 //wartość początkowa
         }
     }
 
