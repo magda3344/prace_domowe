@@ -1,10 +1,5 @@
 import React from 'react';
-
-class Calc extends React.Component {
-    render() {
-        return {this.props.okno};
-    }
-}
+import Calc from './Calc'
 
 export default class Parent extends React.Component {
 
