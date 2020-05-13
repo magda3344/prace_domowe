@@ -8,37 +8,69 @@ export default class MyForm extends React.Component {
             title: '',
             description: '',
             id: null,
+            errormessagetitle: '',
+            errormessageid: '',
+            errormessagetext: ''
         };
     }
+
     myTitle = (event) => {
-        this.setState({title: event.target.value});
+        const newTitle = event.target.value;
+        const updatedState = {title: newTitle, errormessagetitle: ''}; //albo to albo to
+
+        if (newTitle.length <= 2) {
+            updatedState.errormessagetitle = 'Length of title must be higher than 2 characters';
+        }
+        if (newTitle.length >= 10) {
+            updatedState.errormessagetitle = 'Length of title must be lower than 10 characters';
+        }
+        this.setState(updatedState); //wyswietli nowy tytuł i error jak bedzie
     }
     myText = (event) => {
-        this.setState({description: event.target.value});
+        const newText = event.target.value;
+        const updatedState = {description: newText, errormessagetext: ''}; //albo to albo to
+
+        if (newText.length <= 2) {
+            updatedState.errormessagetext = 'Length of text must be higher than 2 characters';
+        }
+        if (newText.length >= 30) {
+            updatedState.errormessagetext = 'Length of text must be lower than 30 characters';
+        }
+        this.setState(updatedState); //wyswietli nowy tytuł i error jak bedzie
     }
     myId = (event) => {
-        this.setState({id: event.target.value});
+        const newId = event.target.value;
+        const updatedState = {id: newId, errormessageid: ''}; //albo to albo to
+
+        if (newId !=="" && !Number(newId)) {
+            updatedState.errormessageid = 'Id must be a number';
+        }
+        this.setState(updatedState); //wyswietli nowy tytuł i error jak bedzie
     }
 
     render() {
         return (
             <form>
-               <h2> {this.state.id}. {this.state.title.toUpperCase()}, {this.state.description}</h2>
-                <p>Enter id article:</p>
+                <h2> {this.state.id}. {this.state.title.toUpperCase()}, {this.state.description}</h2>
+                <p><strong>Enter id article:</strong></p>
                 <input
                     type='text'
                     onChange={this.myId}/>
+                <p>{this.state.errormessageid}</p>
 
-                <p>Enter your title:</p>
+                <p><strong>Enter your title:</strong></p>
                 <input
                     type='text'
                     onChange={this.myTitle}/>
+                <p>{this.state.errormessagetitle}</p>
 
-                    <p>Enter your text:</p>
-                <textarea  type='text' onChange={this.myText} />
+                <p><strong>Enter your text:</strong></p>
+                <textarea type='text' onChange={this.myText}/>
+                <p>{this.state.errormessagetext}</p>
             </form>
         );
     }
 }
+
 
 
