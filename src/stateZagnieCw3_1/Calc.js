@@ -2,12 +2,14 @@ import React from 'react';
 
 
 class Calc extends React.Component{
-   var value = prompt("Podaj liczbę", "liczba czeka");
+    value = prompt("Podaj liczbę", "liczba czeka");
     render() {
-        return
-
-        {this.state.value}
-        }
+        return(
+        <div>
+            {this.props.value}
+        </div>
+        );
+    }
 };
 export default Calc
 

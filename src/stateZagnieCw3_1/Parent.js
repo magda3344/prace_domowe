@@ -49,14 +49,15 @@ export default class Parent extends React.Component {
     render() { //funkcja
         return (
             <div>
-                <Calc prompt={this.state.value} />
+                <Calc value={this.state.value} />
                 <button onClick={this.showDod}>Wprowadż liczbę</button>
                 <p>Wynik: {this.state.number}</p>
             </div>
         );
     }
 }
-
+// w div return // <Calc prompt={this.state.value} />
 //     <Calc okno={wpisz}/>
 
 //https://www.nafrontendzie.pl/podzial-odpowiedzialnosci-komponentow-reactjs
+//https://pl.reactjs.org/docs/context.html

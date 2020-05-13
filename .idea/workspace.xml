@@ -19,12 +19,8 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="3edeb553-cb0d-4c64-b264-70d83f0031a1" name="Default Changelist" comment="zzzzz">
-      <change afterPath="$PROJECT_DIR$/src/blog/lifecycleTest.js" afterDir="false" />
+    <list default="true" id="3edeb553-cb0d-4c64-b264-70d83f0031a1" name="Default Changelist" comment="kkkkkk">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/blog/blog.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/blog/blog.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/blog/blog.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/blog/blog.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/stateZagnieCw3_1/Calc.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/stateZagnieCw3_1/Calc.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/stateZagnieCw3_1/Parent.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/stateZagnieCw3_1/Parent.js" afterDir="false" />
     </list>
@@ -51,7 +47,7 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../blogMagdy" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
@@ -114,7 +110,7 @@
       <workItem from="1588968375829" duration="1798000" />
       <workItem from="1589187388767" duration="14191000" />
       <workItem from="1589333896915" duration="7118000" />
-      <workItem from="1589382129259" duration="8672000" />
+      <workItem from="1589382129259" duration="10488000" />
     </task>
     <task id="LOCAL-00001" summary="cw 1 kawałek">
       <created>1581173052763</created>
@@ -137,7 +133,14 @@
       <option name="project" value="LOCAL" />
       <updated>1589340896638</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="kkkkkk">
+      <created>1589390834379</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1589390834379</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -158,7 +161,8 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="cw 1 kawałek" />
     <MESSAGE value="zzzzz" />
-    <option name="LAST_COMMIT_MESSAGE" value="zzzzz" />
+    <MESSAGE value="kkkkkk" />
+    <option name="LAST_COMMIT_MESSAGE" value="kkkkkk" />
   </component>
   <component name="WindowStateProjectService">
     <state x="232" y="150" width="816" height="730" key="#Intentions" timestamp="1589387349447">
@@ -173,17 +177,17 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="304" y="225" key="CommitChangelistDialog2/0.0.1920.1040@0.0.1920.1040" timestamp="1581173051851" />
-    <state x="428" y="324" key="FileChooserDialogImpl" timestamp="1589333951097">
+    <state x="428" y="324" key="FileChooserDialogImpl" timestamp="1589390854272">
       <screen x="0" y="0" width="1280" height="984" />
     </state>
-    <state x="428" y="324" key="FileChooserDialogImpl/0.0.1280.984/1280.0.1366.728@0.0.1280.984" timestamp="1589333951097" />
+    <state x="428" y="324" key="FileChooserDialogImpl/0.0.1280.984/1280.0.1366.728@0.0.1280.984" timestamp="1589390854272" />
     <state x="1737" y="237" key="FileChooserDialogImpl/0.0.1280.984/1280.0.1366.728@1280.0.1366.728" timestamp="1588885115145" />
     <state x="457" y="240" key="FileChooserDialogImpl/0.0.1366.728@0.0.1366.728" timestamp="1582226511735" />
     <state x="643" y="457" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1581236202136" />
-    <state x="181" y="261" key="Vcs.Push.Dialog.v2" timestamp="1589340899836">
+    <state x="181" y="261" key="Vcs.Push.Dialog.v2" timestamp="1589390835033">
       <screen x="0" y="0" width="1280" height="984" />
     </state>
-    <state x="181" y="261" key="Vcs.Push.Dialog.v2/0.0.1280.984/1280.0.1366.728@0.0.1280.984" timestamp="1589340899836" />
+    <state x="181" y="261" key="Vcs.Push.Dialog.v2/0.0.1280.984/1280.0.1366.728@0.0.1280.984" timestamp="1589390835033" />
     <state x="1473" y="193" key="Vcs.Push.Dialog.v2/0.0.1280.984/1280.0.1366.728@1280.0.1366.728" timestamp="1589214216133" />
     <state x="271" y="363" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1581173061662" />
     <state x="379" y="189" key="com.intellij.ide.util.TipDialog" timestamp="1582326290920">
