@@ -10,17 +10,22 @@ import {
 
 import MyForm from "./formularz";
 import About from "./about";
+import LifecycleTest from "./lifecycleTest";
 
 export default function RouterExample() {
     return (<Router>
             <div >
                 <ul className="link">
                     <li >
-                        <Link to="/formularz">Formularz</Link>
+                        <Link to="/formularz"><color yellow>Formularz</color></Link>
                     </li>
                     <li>
                         <Link to="/about">About</Link>
                     </li>
+                    <li>
+                        <Link to="/lifecycleTest">Licznik</Link>
+                    </li>
+
                 </ul>
                 <hr/>
                 <Switch>
@@ -33,7 +38,9 @@ export default function RouterExample() {
                     <Route path="/formularz">
                         <MyForm/>
                     </Route>
-
+                    <Route path="/lifecycleTest">
+                        <LifecycleTest/>
+                    </Route>
                 </Switch>
             </div>
         </Router>

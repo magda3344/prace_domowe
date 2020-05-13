@@ -14,5 +14,8 @@ body {
 .link li{
     color: yellow;
     text-align: right;
-
+    list-style-type: none;
+}
+.link {
+    color: yellow;
 }
