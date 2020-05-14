@@ -1,6 +1,7 @@
 import React from "react";
 import './blog.css';
 
+
 import {
     BrowserRouter as Router,
     Switch,
@@ -11,6 +12,8 @@ import {
 import MyForm from "./formularz";
 import About from "./about";
 import LifecycleTest from "./lifecycleTest";
+//import Parent from "./stateZagnieCw3_1/Parent";
+
 
 export default function RouterExample() {
     return (<Router>
@@ -24,6 +27,9 @@ export default function RouterExample() {
                     </li>
                     <li>
                         <Link to="/lifecycleTest">Licznik</Link>
+                        {/*<li>
+                            <Link to="/parent">Dodawanie</Link>
+                        </li>*/}
                     </li>
 
                 </ul>
@@ -41,6 +47,9 @@ export default function RouterExample() {
                     <Route path="/lifecycleTest">
                         <LifecycleTest/>
                     </Route>
+                    {/*} <Route path="/stateZagnieCw3_1/Parent">
+                        <Parent/>
+                    </Route>*/}
                 </Switch>
             </div>
         </Router>
@@ -56,3 +65,4 @@ class Home extends React.Component {
 }
 
 //#61dafb
+//https://www.nafrontendzie.pl/routing-reactjs-wprowadzenie-react-router

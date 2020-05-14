@@ -26,7 +26,7 @@ export default class MyForm extends React.Component {
         let val = event.target.value;
         var errAge = '';
         var errName = '';
-        const reg = /^[A-z]/;
+        const reg =/^[A-Z0-9][a-zA-Z0-9_.+-]+$/;
 
 
         if (nam === "age") {
@@ -44,13 +44,12 @@ export default class MyForm extends React.Component {
             if (Number(val)) {
                 errName = <strong>Name must be a text</strong>;
             }
-            this.setState({errormessagename: errName});
-            if (val !== reg) {
-                errName = <strong>Name must start with a capital letter</strong>;
-                }
+        this.setState({errormessagename: errName});
+             if (!reg.test(val)) {
+             errName = <strong>Name must start with a capital letter</strong>;
+             }
                 this.setState({errormessagename: errName});
             }
-
 
             if (nam === "username1") {
                 if (val.length <= 4) {
@@ -59,6 +58,10 @@ export default class MyForm extends React.Component {
                 this.setState({errormessagesurname: errName});
                 if (Number(val)) {
                     errName = <strong>Surname must be a text</strong>;
+                }
+                this.setState({errormessagesurname: errName});
+                if (!reg.test(val)) {
+                    errName = <strong>Surname must start with a capital letter</strong>;
                 }
                 this.setState({errormessagesurname: errName});
             }

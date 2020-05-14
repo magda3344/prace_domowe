@@ -17,23 +17,28 @@ export default class MyForm extends React.Component {
     myTitle = (event) => {
         const newTitle = event.target.value;
         const updatedState = {title: newTitle, errormessagetitle: ''}; //albo to albo to
+        const reg =/^[A-Z][A-Za-z]+$/;
 
-        if (newTitle.length <= 2) {
+        if (newTitle !=="" && newTitle.length <= 2) {
             updatedState.errormessagetitle = 'Length of title must be higher than 2 characters';
         }
-        if (newTitle.length >= 10) {
+        if (newTitle !=="" && newTitle.length >= 10) {
             updatedState.errormessagetitle = 'Length of title must be lower than 10 characters';
         }
         this.setState(updatedState); //wyswietli nowy tytuł i error jak bedzie
+        if (newTitle !=="" && !reg.test(newTitle)) {
+            updatedState.errormessagetitle= 'Title must be a text and start with a capital letter';
+        }
+        this.setState(updatedState);
     }
     myText = (event) => {
         const newText = event.target.value;
         const updatedState = {description: newText, errormessagetext: ''}; //albo to albo to
 
-        if (newText.length <= 2) {
+        if (newText !=="" && newText.length <= 2) {
             updatedState.errormessagetext = 'Length of text must be higher than 2 characters';
         }
-        if (newText.length >= 30) {
+        if (newText !=="" && newText.length >= 30) {
             updatedState.errormessagetext = 'Length of text must be lower than 30 characters';
         }
         this.setState(updatedState); //wyswietli nowy tytuł i error jak bedzie

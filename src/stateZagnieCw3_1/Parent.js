@@ -42,6 +42,7 @@ export default class Parent extends React.Component {
 
     showDod = () => { //tak definiujemy fukcję =()=> to ważne żeby tak pisać
         //<Calc prompt={this.state.value}
+        //var value = prompt("Podaj liczbę");
         let tempVal = this.state.number + parseInt(value); //parseInt - zamienia wartość tekstową na liczbową, wartość tekstowa jest domyślnie w prompt
         this.setState({number: tempVal}) //setState po to aby zachować poprzednią wartość przy kolejnej wpisanej liczbie, aby jedną dodać do drugiej
     }
