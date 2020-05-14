@@ -26,10 +26,11 @@ export default class MyForm extends React.Component {
         let val = event.target.value;
         var errAge = '';
         var errName = '';
+        const reg = /^[A-z]/;
 
 
         if (nam === "age") {
-            if (val !=="" && !Number(val)) {
+            if (val !== "" && !Number(val)) {
                 errAge = <strong>Your age must be a number</strong>;
             }
             this.setState({errormessageage: errAge});
@@ -40,24 +41,29 @@ export default class MyForm extends React.Component {
                 errName = <strong>Length of name must be higher than 4 characters</strong>;
             }
             this.setState({errormessagename: errName});
-        if (Number(val)) {
-                    errName = <strong>Name must be a text</strong>;
+            if (Number(val)) {
+                errName = <strong>Name must be a text</strong>;
+            }
+            this.setState({errormessagename: errName});
+            if (val !== reg) {
+                errName = <strong>Name must start with a capital letter</strong>;
                 }
                 this.setState({errormessagename: errName});
             }
 
 
-        if (nam === "username1") {
-            if (val.length <= 4) {
-                errName = <strong>Length of surname must be higher than 4 characters</strong>;
+            if (nam === "username1") {
+                if (val.length <= 4) {
+                    errName = <strong>Length of surname must be higher than 4 characters</strong>;
+                }
+                this.setState({errormessagesurname: errName});
+                if (Number(val)) {
+                    errName = <strong>Surname must be a text</strong>;
+                }
+                this.setState({errormessagesurname: errName});
             }
-            this.setState({errormessagesurname: errName});
-            if (Number(val)) {
-                errName = <strong>Surname must be a text</strong>;
-            }
-            this.setState({errormessagesurname: errName});
-        }
-        this.setState({[nam]: val}); //zmiana komponentu z nam na val- setState
+            this.setState({[nam]: val}); //zmiana komponentu z nam na val- setState
+
     }
     render() {
         return (
@@ -96,4 +102,4 @@ export default class MyForm extends React.Component {
             </form>
         );
     }
-}
+};
