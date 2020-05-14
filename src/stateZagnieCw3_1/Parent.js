@@ -1,14 +1,16 @@
 import React from 'react';
-import Calc from './Calc';
+//import Calc from './Calc';
 
-/*var value = prompt("Podaj liczbę", "liczba czeka");
+var value = prompt("Podaj liczbę", "liczba czeka");
 
-const Calc=(props)=>{
+/*const Calc=(props)=>{
 
     return
-        {props.value};
+        {this.props.value};
 }
 */
+
+
 /*class Calc extends React.Component {
     showPrompt =()=> {
         value = prompt("Podaj liczbę", "liczba czeka");
@@ -37,12 +39,17 @@ export default class Parent extends React.Component {
         super(props);
         this.state = {
             number: 0,
+
         }
     }
 
+    Calc = () => {
+       var value = prompt("Podaj liczbę", "liczba czeka");
+       this.setState(        {value});
+    }
+
     showDod = () => { //tak definiujemy fukcję =()=> to ważne żeby tak pisać
-        //<Calc prompt={this.state.value}
-        //var value = prompt("Podaj liczbę");
+
         let tempVal = this.state.number + parseInt(value); //parseInt - zamienia wartość tekstową na liczbową, wartość tekstowa jest domyślnie w prompt
         this.setState({number: tempVal}) //setState po to aby zachować poprzednią wartość przy kolejnej wpisanej liczbie, aby jedną dodać do drugiej
     }
@@ -50,13 +57,14 @@ export default class Parent extends React.Component {
     render() { //funkcja
         return (
             <div>
-                <Calc value={this.state.value} />
+
                 <button onClick={this.showDod}>Wprowadż liczbę</button>
                 <p>Wynik: {this.state.number}</p>
             </div>
         );
     }
 }
+//<Calc value={this.state.value} /> w div w return
 // w div return // <Calc prompt={this.state.value} />
 //     <Calc okno={wpisz}/>
 

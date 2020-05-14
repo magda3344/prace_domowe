@@ -21,9 +21,6 @@
   <component name="ChangeListManager">
     <list default="true" id="3edeb553-cb0d-4c64-b264-70d83f0031a1" name="Default Changelist" comment="ooooooo">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/blog/blog.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/blog/blog.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/blog/formularz.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/blog/formularz.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/formularzWalidacja/cw1.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/formularzWalidacja/cw1.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/stateZagnieCw3_1/Parent.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/stateZagnieCw3_1/Parent.js" afterDir="false" />
     </list>
@@ -115,7 +112,7 @@
       <workItem from="1589333896915" duration="7118000" />
       <workItem from="1589382129259" duration="10545000" />
       <workItem from="1589447280448" duration="4112000" />
-      <workItem from="1589456943090" duration="10741000" />
+      <workItem from="1589456943090" duration="16078000" />
     </task>
     <task id="LOCAL-00001" summary="cw 1 kawałek">
       <created>1581173052763</created>
@@ -159,7 +156,14 @@
       <option name="project" value="LOCAL" />
       <updated>1589453793651</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="ooooooo">
+      <created>1589472748783</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1589472748783</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -204,10 +208,10 @@
     <state x="1737" y="237" key="FileChooserDialogImpl/0.0.1280.984/1280.0.1366.728@1280.0.1366.728" timestamp="1588885115145" />
     <state x="457" y="240" key="FileChooserDialogImpl/0.0.1366.728@0.0.1366.728" timestamp="1582226511735" />
     <state x="643" y="457" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1581236202136" />
-    <state x="181" y="261" key="Vcs.Push.Dialog.v2" timestamp="1589453858543">
+    <state x="181" y="261" key="Vcs.Push.Dialog.v2" timestamp="1589472770787">
       <screen x="0" y="0" width="1280" height="984" />
     </state>
-    <state x="181" y="261" key="Vcs.Push.Dialog.v2/0.0.1280.984/1280.0.1366.728@0.0.1280.984" timestamp="1589453858543" />
+    <state x="181" y="261" key="Vcs.Push.Dialog.v2/0.0.1280.984/1280.0.1366.728@0.0.1280.984" timestamp="1589472770787" />
     <state x="1473" y="193" key="Vcs.Push.Dialog.v2/0.0.1280.984/1280.0.1366.728@1280.0.1366.728" timestamp="1589214216133" />
     <state x="271" y="363" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1581173061662" />
     <state x="379" y="189" key="com.intellij.ide.util.TipDialog" timestamp="1582326290920">
