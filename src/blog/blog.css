@@ -10,12 +10,12 @@ body {
     color: black;
 }
 
-
 .link li{
     color: yellow;
     text-align: right;
     list-style-type: none;
+    link: yellow;
 }
-.link {
+.link link{
     color: yellow;
 }

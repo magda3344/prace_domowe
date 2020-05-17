@@ -12,26 +12,24 @@ import {
 import MyForm from "./formularz";
 import About from "./about";
 import LifecycleTest from "./lifecycleTest";
-//import Parent from "./stateZagnieCw3_1/Parent";
-
+import Parent from "./dodawanie";
 
 export default function RouterExample() {
     return (<Router>
             <div >
                 <ul className="link">
                     <li >
-                        <Link to="/formularz"><color yellow>Formularz</color></Link>
+                        <Link to="/formularz">Formularz</Link>
                     </li>
                     <li>
                         <Link to="/about">About</Link>
                     </li>
                     <li>
                         <Link to="/lifecycleTest">Licznik</Link>
-                        {/*<li>
-                            <Link to="/parent">Dodawanie</Link>
-                        </li>*/}
-                    </li>
-
+                        </li>
+                    <li>
+                            <Link to="/dodawanie">Dodawanie</Link>
+                        </li>
                 </ul>
                 <hr/>
                 <Switch>
@@ -47,9 +45,9 @@ export default function RouterExample() {
                     <Route path="/lifecycleTest">
                         <LifecycleTest/>
                     </Route>
-                    {/*} <Route path="/stateZagnieCw3_1/Parent">
+                    <Route path="/dodawanie">
                         <Parent/>
-                    </Route>*/}
+                    </Route>
                 </Switch>
             </div>
         </Router>
